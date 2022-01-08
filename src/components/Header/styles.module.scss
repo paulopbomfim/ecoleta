@@ -1,0 +1,16 @@
+.container {
+  margin: 20px auto 0;
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  align-items: center;
+  
+  div {
+    display: flex;
+    align-items: center;
+
+    img {
+      margin-right: 10px;
+    }
+  }
+}
