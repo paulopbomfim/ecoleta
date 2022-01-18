@@ -1,23 +1,11 @@
-<style>
-  .logo {
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    padding: 10px 0;
-  }
 
-  h1, h3, p {
-    text-align: center;
-  }
-</style>
-
-<div class="logo"><img src="./public/doc/logo.svg"></div>
+<div align="center"><img src="./public/doc/logo.svg"></div>
 
 <div>
-  <h1>Em desenvolvimento</h1>
+  <h1 align="center">Em desenvolvimento</h1>
 
-  <h3>Projeto criado com base no material disponibilizado no Ignite pela <a href="https://www.rocketseat.com.br">Rocketseat</a></h3>
-  <p>App com objetivo de facilitar a localização dos centros de coleta de resíduos</p>
+  <h3 align="center">Projeto criado com base no material disponibilizado no Ignite pela <a href="https://www.rocketseat.com.br">Rocketseat</a></h3>
+  <p align="center">App com objetivo de facilitar a localização dos centros de coleta de resíduos</p>
   <br/>
 </div>
 
