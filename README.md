@@ -4,7 +4,7 @@
 <div>
   <h1 align="center">Em desenvolvimento</h1>
 
-  <h3 align="center">Projeto criado com base no material disponibilizado no Ignite pela <a href="https://www.rocketseat.com.br">Rocketseat</a></h3>
+  <h3 align="center">Projeto criado com base no layout disponibilizado no Ignite pela <a href="https://www.rocketseat.com.br">Rocketseat</a></h3>
   <p align="center">App com objetivo de facilitar a localização dos centros de coleta de resíduos</p>
   <br/>
 </div>
