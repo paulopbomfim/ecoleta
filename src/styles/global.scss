@@ -5,6 +5,7 @@
 }
 
 :root {
+  --dark-green: #2FB86E;
   --green: #34CB79;
   --light-green: #E1FAEC;
   --title: #322153;
@@ -12,6 +13,12 @@
   --support-text: #A0A0B2;
   --white: white;
   --background: #F0F0F5;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: var(--background);
 }
 
 @media (max-width: 1080px) {
