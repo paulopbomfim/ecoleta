@@ -1,0 +1,67 @@
+.pageContainer {
+  border-top: 1px solid transparent;
+  background: linear-gradient(to bottom, var(--background) 0, var(--background) 29%, var(--white) 20%);
+  height: 100vh
+}
+
+.counterSection {
+  width: 70%;
+  margin: 4rem auto;
+}
+
+.mainContainer {
+  width: 100%;
+  margin-top: 8rem;
+}
+
+.cardsContainer {
+  margin: 0 auto;
+  width: 70%;
+  transform: translateY(-6rem);
+  display : flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  padding-bottom: 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--white);
+  transition: box-shadow 0.3s ease-in-out;
+  
+  img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+
+  h2 {
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+  
+  h3 {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: var(--green);
+    
+  }
+  
+  p {
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
+
+  .cardTextContent {
+    width: 80%;
+    margin-left: 0.3rem;
+  }
+
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  }
+}

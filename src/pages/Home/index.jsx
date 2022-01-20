@@ -37,7 +37,7 @@ export function Home() {
 
   return (
     <div className={ styles.homepageContainer }>
-      <Header linkPath={"/"}  isHome={ true }/>
+      <Header isHome={ true }/>
       <main className ={ styles.mainContainer }>
         <div>
           <h1>Seu marketplace de coleta de resíduos.</h1>

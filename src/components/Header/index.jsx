@@ -5,10 +5,11 @@ import registerImg from "../../assets/register.svg";
 import returnImg from "../../assets/return.svg";
 
 import styles from './styles.module.scss';
+import { useNavigate } from 'react-router-dom'
 
-export function Header({linkPath, isHome}) {
-  // const history = useHistory();
-  /*onClick={ history.push(linkPath) }*/
+export function Header({ isHome }) {
+  const navigate = useNavigate();
+  
   return (
     <header className={ styles.container }>
       <img src={ logoImg } alt="Ecoleta" />
@@ -21,7 +22,7 @@ export function Header({linkPath, isHome}) {
             </div>
           )
           : (
-            <div>
+            <div onClick={ () => navigate("/") }>
               <img src={ returnImg } alt="Ícone representando função de voltar pro início" />
               <h3>Voltar para página inicial</h3>
             </div>

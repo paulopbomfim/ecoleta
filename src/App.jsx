@@ -1,9 +1,9 @@
-import { Home } from "./pages/Home";
+import { AllRoutes } from './All.Routes';
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      <AllRoutes />
     </div>
   );
 }
