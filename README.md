@@ -23,22 +23,22 @@
 - JavaScript
 - ReactJS
 - React Modal
-- React Router Dom
+- React Router
 - SASS
 - CSS Modules
 ---
 ## Instalação
 
 #### Esse projeto usa Node.js e Yarn
-- clone o projeto
+- clone o projeto:
   ```
   git clone https://github.com/paulopbomfim/nlw1-ecoleta.git
   ```
-- Entre na pasta do projeto usando o terminal e digite
+- Entre na pasta do projeto usando o terminal e digite:
   ```
   yarn
   ```
-- Em seguida digite
+- Em seguida digite:
   ```
   yarn start
   ```
